@@ -1,0 +1,15 @@
+PUT http://localhost:4000/auth/updateUser
+content-type: application/json
+
+{
+    "nombre_completo": "Camilo", 
+    "tipo_documento":"cédula", 
+    "documento": "1591786391", 
+    "contraseña":"comoEsta4", 
+    "gmail":"camilo8@gmail.com", 
+    "estado":"Activo", 
+    "rol":"usuario", 
+    "direccion": "calle 20 # 21 manizales, puertas del rio",
+    "telefono": "3214567890",
+    "id":"2"
+}

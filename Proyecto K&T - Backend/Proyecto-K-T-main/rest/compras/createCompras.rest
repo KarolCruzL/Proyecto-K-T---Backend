@@ -1,0 +1,9 @@
+POST http://localhost:4000/Compras/createCompras
+content-type: application/json
+
+{
+    "nombre" : "Licuadora",
+    "lugarDeUso": "Cocina",
+    "tipo": "Cocina",
+    "precio": "100"
+}
