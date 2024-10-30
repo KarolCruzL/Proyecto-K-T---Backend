@@ -1,0 +1,14 @@
+POST http://localhost:4000/auth/createUser
+content-type: application/json
+
+{
+    "nombreCompleto" : "Paulina",
+    "tipoDocumento": "cédula",
+    "documento": "105567843",
+    "contraseña": "holapepe12",
+    "gmail" : "paulina@gmail.com",
+    "rol": "usuario",
+    "estado": "activo",
+    "direccion" : "carrera 12 #24 manizales, barrio el sol",
+    "telefono" : "3132456432"
+}

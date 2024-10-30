@@ -1,0 +1,9 @@
+PUT http://localhost:4000/Compras/updateCompras
+content-type: application/json
+
+{
+    "nombre" : "ControlPs4",
+    "lugarDeUso": "Sala",
+    "tipo": "VideoJuegos",
+    "precio": "300"
+}
